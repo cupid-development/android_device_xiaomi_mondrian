@@ -12,7 +12,8 @@ $(call inherit-product, vendor/xiaomi/mondrian/mondrian-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
-    SettingsProviderResMondrian
+    SettingsProviderResMondrian \
+    WifiResMondrian
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
