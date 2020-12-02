@@ -5,4 +5,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <dimen name="rounded_corner_content_padding">49.0px</dimen>
+    <dimen name="keyguard_indication_margin_bottom">16dp</dimen>
 </resources>
