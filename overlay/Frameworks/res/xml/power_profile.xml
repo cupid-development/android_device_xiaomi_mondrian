@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023 The LineageOS Project
+     Copyright (C) 2024 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <device name="Android">
@@ -159,8 +159,12 @@
     <item name="wifi.on">0.83</item>
     <item name="wifi.active">174.8525</item>
     <item name="wifi.scan">28.44</item>
-    <item name="dsp.audio">23.4</item>
-    <item name="dsp.video">56.68</item>
+
+            <!-- Apps which primarily work with audio or music, such as music players. -->
+    <item name="audio">23.4</item>
+
+            <!-- Apps which primarily work with video or movies, such as streaming video apps. -->
+    <item name="video">56.68</item>
     <item name="camera.flashlight">107.01</item>
     <item name="camera.avg">883.04</item>
     <item name="gps.on">54.4</item>
