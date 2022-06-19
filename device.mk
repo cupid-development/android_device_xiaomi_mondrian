@@ -14,6 +14,7 @@ $(call inherit-product, vendor/xiaomi/mondrian/mondrian-vendor.mk)
 PRODUCT_PACKAGES += \
     FrameworksResMondrian \
     SettingsProviderResMondrian \
+    SystemUIResMondrian \
     WifiResMondrian
 
 # Soong namespaces
