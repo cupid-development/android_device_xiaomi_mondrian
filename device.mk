@@ -12,6 +12,7 @@ $(call inherit-product, vendor/xiaomi/mondrian/mondrian-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
+    ApertureResMondrian \
     FrameworksResMondrian \
     SettingsProviderResMondrian \
     SettingsResMondrian \
