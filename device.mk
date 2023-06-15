@@ -15,6 +15,7 @@ PRODUCT_PACKAGES += \
     ApertureResMondrian \
     FrameworksResMondrian \
     FrameworksResMondrianGlobal \
+    NfcResMondrian \
     SettingsProviderResMondrian \
     SystemUIResMondrian \
     WifiResMondrian
