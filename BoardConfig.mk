@@ -12,5 +12,8 @@ include vendor/xiaomi/mondrian/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/mondrian
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
+
 # Screen density
 TARGET_SCREEN_DENSITY := 560
