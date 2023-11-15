@@ -1,8 +1,25 @@
 # All unpinned blobs below are extracted from mondrian V14.0.5.0.TMNMIXM
 
 # ACDB
+vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb
+vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp
+vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb
+vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp
 vendor/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp
+vendor/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb
+vendor/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp
+vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb
+vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp
+vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb
+vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp
+vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb
+vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd
+vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd
+vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
 
 # ADSP modules
 vendor/lib/rfsa/adsp/misound_res_spk.bin
@@ -444,6 +461,7 @@ vendor/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so
 vendor/lib/libAF.so
 vendor/lib/libSNPE.so
 vendor/lib/libSnpeHtpV69Stub.so
+vendor/lib/libXMFaceFocus.so
 vendor/lib/libc++_shared.so
 vendor/lib/libcamxcommonutils.so
 vendor/lib/libcamxexternalformatutils.so
@@ -609,13 +627,17 @@ vendor/lib64/com.qti.feature2.ellcsupernight.so
 vendor/lib64/com.qti.feature2.frameselect.so
 vendor/lib64/com.qti.feature2.fusion.so
 vendor/lib64/com.qti.feature2.generic.so
+vendor/lib64/com.qti.feature2.gs.fillmore.so
 vendor/lib64/com.qti.feature2.gs.sm8450.so
 vendor/lib64/com.qti.feature2.hdr.so
 vendor/lib64/com.qti.feature2.mcreprocrt.so
 vendor/lib64/com.qti.feature2.memcpy.so
+vendor/lib64/com.qti.feature2.mfsr.netrani.so
 vendor/lib64/com.qti.feature2.mfsr.sm8450.so
 vendor/lib64/com.qti.feature2.mfsr.so
+vendor/lib64/com.qti.feature2.ml.fillmore.so
 vendor/lib64/com.qti.feature2.ml.so
+vendor/lib64/com.qti.feature2.multirawproc.so
 vendor/lib64/com.qti.feature2.mux.so
 vendor/lib64/com.qti.feature2.offlinestatsregeneration.so
 vendor/lib64/com.qti.feature2.parallelVTCam.so
@@ -646,21 +668,38 @@ vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so
 vendor/lib64/libAF.so
 vendor/lib64/libHISCppAlgos.so
+vendor/lib64/libMiMotion.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSnpeHtpV69Stub.so
 vendor/lib64/libTrueSight.so
+vendor/lib64/libXMFaceFocus.so
 vendor/lib64/libaidenoiser.so
+vendor/lib64/libalAILDC.so
+vendor/lib64/libalAI_Seg.so
 vendor/lib64/libalCFR.so
+vendor/lib64/libalLDC.so
+vendor/lib64/libalNN.so
+vendor/lib64/libalNN_engine.so
+vendor/lib64/libalNN_gpu.so
+vendor/lib64/libalNN_snpe.so
+vendor/lib64/libalhLDC.so
 vendor/lib64/libanc_dc_base.so
 vendor/lib64/libanc_hdr.so
+vendor/lib64/libanc_supervq.so
 vendor/lib64/libancbase.so
 vendor/lib64/libarc_sat.so
 vendor/lib64/libarc_translate.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_dualcam_refocus_image.so
 vendor/lib64/libarcsoft_dualcam_refocus_video.so
+vendor/lib64/libarcsoft_hdr_detection.so
+vendor/lib64/libarcsoft_high_dynamic_range.so
+vendor/lib64/libarcsoft_low_light_hdr.so
+vendor/lib64/libarcsoft_mf_superresolution.so
 vendor/lib64/libarcsoft_qnnhtp.so
+vendor/lib64/libarcsoft_super_night_detection.so
 vendor/lib64/libarcsoft_super_night_raw.so
+vendor/lib64/libarcsoft_zoom_high_dynamic_range.so
 vendor/lib64/libbeauty_face_interface.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
@@ -703,6 +742,7 @@ vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmemunreachable.so
 vendor/lib64/libmfGhostDetection.so
 vendor/lib64/libmiStereoFactoryRemapBasicLib.so
+vendor/lib64/libmi_supernight_raw_checker.so
 vendor/lib64/libmiai_deblur.so
 vendor/lib64/libmiai_portraitsupernight.so
 vendor/lib64/libmialgo_ai_vision.so
@@ -727,6 +767,10 @@ vendor/lib64/libmiphone_capture_bokeh_front.so
 vendor/lib64/libmiphone_preview_bokeh.so
 vendor/lib64/libmiphone_preview_bokeh_mono.so
 vendor/lib64/libmiphone_preview_depth.so
+vendor/lib64/libmis_plugin_dummy.so
+vendor/lib64/libmis_plugin_his.so
+vendor/lib64/libmis_plugin_morpho.so
+vendor/lib64/libmis_plugin_vidhance.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_lscv35.so
@@ -752,6 +796,7 @@ vendor/lib64/libremosaiclib.so
 vendor/lib64/libsfeShiftExtrapolation.so
 vendor/lib64/libsnpe_dsp_domains_v2.so
 vendor/lib64/libsnpe_dsp_domains_v3.so
+vendor/lib64/libsnpe_loader.so
 vendor/lib64/libsupermoon.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsynx.so
@@ -769,9 +814,11 @@ vendor/lib64/libvidhance_horizon_correction.so
 vendor/lib64/libvidhance_ldc.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvidhance_super_stabilization.so
+vendor/lib64/libwa_opticalzoom_fusion.so
 vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libxmi_slow_motion_mein.so
+vendor/lib64/libxmi_slow_motion_triger.so
 vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so
