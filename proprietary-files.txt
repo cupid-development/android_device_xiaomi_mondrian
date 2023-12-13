@@ -24,6 +24,9 @@ vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
 # ADSP modules
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
+# Audio firmware
+vendor/firmware/aw882xx_acf.bin
+
 # Audio graph manager
 -vendor/lib/libagm.so
 -vendor/lib64/libagm.so
@@ -1199,7 +1202,6 @@ vendor/firmware/96_nfcCard_P_RTP.bin
 vendor/firmware/98_nfcCardSlow_P_RTP.bin
 vendor/firmware/99_POCO_P_RTP.bin
 vendor/firmware/9_seqbinwav_P_RTP.bin
-vendor/firmware/aw882xx_acf.bin
 
 # VPU firmware
 vendor/firmware/vpu20_4v.b00
