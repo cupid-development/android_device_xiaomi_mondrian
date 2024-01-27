@@ -1179,6 +1179,8 @@ vendor/etc/thermal-yuanshen.conf
 vendor/etc/thermald-devices.conf
 
 # Touchscreen
+vendor/bin/touch_report
+vendor/bin/touch_report:recovery/root/vendor/bin/touch_report
 vendor/firmware/goodix_cfg_group_m11a.bin
 vendor/firmware/goodix_cfg_group_m11a_new.bin
 vendor/firmware/goodix_firmware_m11a.bin
