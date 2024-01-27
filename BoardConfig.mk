@@ -12,6 +12,16 @@ include vendor/xiaomi/mondrian/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/mondrian
 
+# Kernel
+second_stage_modules := \
+	wl2866d.ko \
+	qcom-hv-haptics.ko
+
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += $(second_stage_modules)
+BOARD_VENDOR_KERNEL_MODULES_LOAD += $(second_stage_modules)
+
+BOOT_KERNEL_MODULES += $(second_stage_modules)
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 
