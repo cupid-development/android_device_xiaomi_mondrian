@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from mondrian V14.0.5.0.TMNMIXM
+# All unpinned blobs below are extracted from mondrian V816.0.3.0.UMNMIXM
 
 # ACDB
 vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb
@@ -60,7 +60,6 @@ vendor/lib/rfsa/adsp/libDspIOProxy_skel.so
 vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
 vendor/lib/rfsa/adsp/libQnnHtpAltPrepV69Skel.so
-vendor/lib/rfsa/adsp/libQnnHtpV69Skel.so
 vendor/lib/rfsa/adsp/libSnpeHtpV68Skel.so
 vendor/lib/rfsa/adsp/libSnpeHtpV69Skel.so
 vendor/lib/rfsa/adsp/libVppFrcQnnHtp.so
@@ -73,6 +72,7 @@ vendor/lib/rfsa/adsp/libcvpdsp_2_1.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so
+vendor/lib/rfsa/adsp/libevadsp_3_0.so
 vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
@@ -87,7 +87,6 @@ vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so
 vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks.so
 vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so
 vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
@@ -239,8 +238,10 @@ vendor/etc/camera/127_Creamy.png
 vendor/etc/camera/128_Sepia.png
 vendor/etc/camera/129_Vivid.png
 vendor/etc/camera/130_Natural.png
-vendor/etc/camera/131_Monochrom.png
-vendor/etc/camera/132_MonochromHighContrast.png
+vendor/etc/camera/131_Monochrome.png
+vendor/etc/camera/132_MonochromeHighContrast.png
+vendor/etc/camera/133_MonochromeBrown.png
+vendor/etc/camera/134_MonochromeBlue.png
 vendor/etc/camera/CFR_para_UW_V01.bin
 vendor/etc/camera/GpuKernelRepo.pb
 vendor/etc/camera/LDC_ALTEK_AI_SEGMETATION.bin
@@ -1146,12 +1147,18 @@ vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json
 vendor/etc/mdss_dsi_m11a_42_02_0a_dsc_cmd_mi.xml
 
 # Fingerprint
+odm/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 vendor/lib64/hw/fingerprint.fpc_fod.so:vendor/lib64/hw/fingerprint.fpc_fod.default.so
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # Graphics (Adreno firmware)
+vendor/firmware/a610_zap.b00
+vendor/firmware/a610_zap.b01
+vendor/firmware/a610_zap.b02
+vendor/firmware/a610_zap.elf
+vendor/firmware/a610_zap.mdt
+vendor/firmware/a630_sqe.fw
 vendor/firmware/a660_sqe.fw
 vendor/firmware/a662_gmu.bin
 vendor/firmware/a662_zap.b00
