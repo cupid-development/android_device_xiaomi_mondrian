@@ -14,8 +14,9 @@ DEVICE_PATH := device/xiaomi/mondrian
 
 # Kernel
 device_second_stage_modules := \
-	wl2866d.ko \
-	qcom-hv-haptics.ko
+    gt9916.ko \
+    wl2866d.ko \
+    qcom-hv-haptics.ko
 
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
 BOARD_VENDOR_KERNEL_MODULES_LOAD += $(device_second_stage_modules)
