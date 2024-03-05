@@ -1,0 +1,12 @@
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.overlay.mondrian">
+    <overlay android:targetPackage="android"
+                   android:isStatic="true"
+                   android:priority="800"
+                   android:requiredSystemPropertyName="ro.boot.hwc"
+                   android:requiredSystemPropertyValue="GL"/>
+</manifest>
