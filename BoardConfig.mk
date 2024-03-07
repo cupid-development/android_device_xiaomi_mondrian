@@ -14,6 +14,7 @@ DEVICE_PATH := device/xiaomi/mondrian
 
 # Kernel
 device_second_stage_modules := \
+    goodix_fod.ko \
     gt9916.ko \
     wl2866d.ko \
     qcom-hv-haptics.ko
