@@ -1317,7 +1317,6 @@ vendor/firmware/novatek_spi_fw.bin
 
 # Vibrator
 vendor/firmware/0_seqbinwav_P_RTP.bin:vendor/etc/vibrator/effect_0.bin
-vendor/firmware/1_seqbinwav_P_RTP.bin:vendor/etc/vibrator/effect_1.bin
 vendor/firmware/2_seqbinwav_P_RTP.bin:vendor/etc/vibrator/effect_2.bin
 vendor/firmware/3_seqbinwav_P_RTP.bin:vendor/etc/vibrator/effect_3.bin
 vendor/firmware/4_seqbinwav_P_RTP.bin:vendor/etc/vibrator/effect_4.bin
