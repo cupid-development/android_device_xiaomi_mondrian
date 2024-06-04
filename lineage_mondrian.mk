@@ -39,7 +39,23 @@ PRODUCT_NO_CAMERA := false
 # RisingOS GMS build flags
 WITH_GMS := true
 TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := false
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
+# Add some Google Apps
+PRODUCT_PACKAGES += \
+    Photos \
+    LatinIMEGooglePrebuilt \
+    PrebuiltDeskClockGoogle \
+    CalculatorGooglePrebuilt \
+    WallpaperEmojiPrebuilt \
+    AiWallpapers \
+    DocumentsUIGoogle \
+    FilesPrebuilt \
+    RecorderPrebuilt \
+    StorageManagerGoogle \
+    AICorePrebuilt \
+    AiWallpapers \
+    AmbientStreaming \
+    AndroidAutoStubPrebuilt 
