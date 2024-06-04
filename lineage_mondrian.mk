@@ -58,4 +58,5 @@ PRODUCT_PACKAGES += \
     AICorePrebuilt \
     AiWallpapers \
     AmbientStreaming \
-    AndroidAutoStubPrebuilt 
+    AndroidAutoStubPrebuilt \
+    com.google.android.dialer.support
