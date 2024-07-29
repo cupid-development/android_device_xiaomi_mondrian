@@ -1,2 +1,5 @@
 # Sensors
 ro.vendor.sensors.xiaomi.udfps=true
+
+# System properties
+ro.product.property_source_order=odm,vendor,product,system_ext,system

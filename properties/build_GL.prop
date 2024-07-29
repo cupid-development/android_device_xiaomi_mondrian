@@ -1,0 +1,8 @@
+# Global model
+bluetooth.device.default_name=POCO F5 Pro
+vendor.usb.product_string=POCO F5 Pro
+ro.product.odm.brand=POCO
+ro.product.odm.device=mondrian
+ro.product.odm.manufacturer=Xiaomi
+ro.product.odm.model=23013PC75G
+ro.product.odm.name=mondrian_global

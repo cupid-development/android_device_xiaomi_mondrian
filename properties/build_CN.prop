@@ -1,0 +1,8 @@
+# Chinese model
+bluetooth.device.default_name=Redmi K60
+vendor.usb.product_string=Redmi K60
+ro.product.odm.brand=Redmi
+ro.product.odm.device=mondrian
+ro.product.odm.manufacturer=Xiaomi
+ro.product.odm.model=23013RK75C
+ro.product.odm.name=mondrian
