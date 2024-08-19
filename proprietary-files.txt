@@ -105,9 +105,6 @@ vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
 vendor/lib/rfsa/adsp/weak_refs.so
 
 # Audio configs
-vendor/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml
-vendor/etc/audio/sku_cape/mixer_paths_overlay_static.xml
-vendor/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml
 vendor/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml
 vendor/etc/audio_cloud_control_white_list.xml
 vendor/etc/backend_conf.xml
