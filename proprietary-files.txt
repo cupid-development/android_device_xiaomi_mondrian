@@ -1,19 +1,8 @@
 # All unpinned blobs below are extracted from mondrian V816.0.10.0.UMNMIXM
 
 # ACDB
-vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb
-vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp
-vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb
-vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp
-vendor/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp
-vendor/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb
-vendor/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp
-vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb
-vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp
-vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb
-vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp
-vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/Tutu_acdb_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp:vendor/etc/acdbdata/waipio_mtp/Tutu_workspaceFileXml.qwsp
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd
