@@ -17,8 +17,8 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 23013PC75G
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="mondrian_global-user 14 UKQ1.230804.001 V816.0.10.0.UMNMIXM release-keys" \
-    BuildFingerprint=POCO/mondrian_global/mondrian:14/UKQ1.230804.001/V816.0.10.0.UMNMIXM:user/release-keys \
+    BuildDesc="mondrian_global-user 15 AQ3A.240912.001 OS2.0.5.0.VMNMIXM release-keys" \
+    BuildFingerprint=POCO/mondrian_global/mondrian:15/AQ3A.240912.001/OS2.0.5.0.VMNMIXM:user/release-keys \
     DeviceProduct=mondrian \
     SystemName=mondrian_global
 
